@@ -24,7 +24,7 @@ class HelloViewController: UIViewController {
     }
     
     @IBAction func s(_ sender: UIButton) {
-        if let p = self.parent as? CurtainViewController{
+        if let p = self.parent as? OragamiViewController{
             p.open()
         }
     }

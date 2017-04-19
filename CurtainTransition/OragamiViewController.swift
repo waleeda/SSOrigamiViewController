@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CurtainViewController: UIViewController {
+class OragamiViewController: UIViewController {
 
     
     override var childViewControllerForStatusBarStyle: UIViewController? {
@@ -148,7 +148,7 @@ class CurtainViewController: UIViewController {
             var rad = acos(wt/(shadeSize?.width)!)
             let xOffSet:CGFloat = a + (CGFloat(i) * (a + a))
             if (i%2 == 1){ rad = (rad) * CGFloat(-1.0)}
-            s.zPosition = -20
+            s.zPosition = -10
             s.sublayers?[0].opacity = Float(percent)*0.2 + 0.12
             s.transform = CATransform3DConcat(CATransform3DIdentity,CATransform3DConcat(CATransform3DMakeRotation(rad, 0, 1, 0),
                                                                                         CATransform3DMakeTranslation(-xOffSet , 0, 0)))
@@ -258,7 +258,7 @@ class CurtainViewController: UIViewController {
             layer.frame = makeRect(x2: x)
             layer.contents = image
             layer.contentsScale = UIScreen.main.scale
-            layer.zPosition = -20
+            layer.zPosition = -10
             let shadow = CAGradientLayer()
             shadow.frame = layer.bounds
             shadow.backgroundColor = UIColor.lightGray.cgColor

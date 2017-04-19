@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let vc2 = GoodByeViewController()
 
         
-        let root = CurtainViewController(curtain1: vc1, base1: vc2,folds:8)
+        let root = OragamiViewController(curtain1: vc1, base1: vc2,folds:8)
         window?.rootViewController = root
         window?.makeKeyAndVisible()
         
