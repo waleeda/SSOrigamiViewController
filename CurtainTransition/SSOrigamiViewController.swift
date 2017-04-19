@@ -8,7 +8,7 @@
 
 import UIKit
 
-class OragamiViewController: UIViewController {
+class SSOrigamiViewController: UIViewController {
 
     
     override var childViewControllerForStatusBarStyle: UIViewController? {

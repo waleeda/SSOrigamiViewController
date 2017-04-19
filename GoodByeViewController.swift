@@ -32,7 +32,7 @@ class GoodByeViewController: UIViewController {
     }
     
     @IBAction func s(_ sender: UIButton) {
-        if let p = self.parent as? OragamiViewController{
+        if let p = self.parent as? SSOrigamiViewController{
             p.close()
         }
     }

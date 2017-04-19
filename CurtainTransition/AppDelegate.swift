@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         let vc1 = HelloViewController()
         let vc2 = GoodByeViewController()
-        let root = OragamiViewController(curtain: vc1, base: vc2,folds:8)
+        let root = SSOrigamiViewController(curtain: vc1, base: vc2,folds:8)
         window?.rootViewController = root
         window?.makeKeyAndVisible()
         

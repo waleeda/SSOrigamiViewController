@@ -12,7 +12,7 @@
 		F52226E01EA6EEE00003E722 /* GoodByeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52226DE1EA6EEE00003E722 /* GoodByeViewController.swift */; };
 		F52226E11EA6EEE00003E722 /* GoodByeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F52226DF1EA6EEE00003E722 /* GoodByeViewController.xib */; };
 		F5D1D0121EA5CB20004B53BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D1D0111EA5CB20004B53BC /* AppDelegate.swift */; };
-		F5D1D0141EA5CB20004B53BC /* OragamiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D1D0131EA5CB20004B53BC /* OragamiViewController.swift */; };
+		F5D1D0141EA5CB20004B53BC /* SSOrigamiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D1D0131EA5CB20004B53BC /* SSOrigamiViewController.swift */; };
 		F5D1D0191EA5CB20004B53BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5D1D0181EA5CB20004B53BC /* Assets.xcassets */; };
 		F5D1D01C1EA5CB20004B53BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5D1D01A1EA5CB20004B53BC /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -24,7 +24,7 @@
 		F52226DF1EA6EEE00003E722 /* GoodByeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GoodByeViewController.xib; path = ../GoodByeViewController.xib; sourceTree = "<group>"; };
 		F5D1D00E1EA5CB20004B53BC /* CurtainTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurtainTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5D1D0111EA5CB20004B53BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F5D1D0131EA5CB20004B53BC /* OragamiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OragamiViewController.swift; sourceTree = "<group>"; };
+		F5D1D0131EA5CB20004B53BC /* SSOrigamiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSOrigamiViewController.swift; sourceTree = "<group>"; };
 		F5D1D0181EA5CB20004B53BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5D1D01B1EA5CB20004B53BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5D1D01D1EA5CB20004B53BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -65,7 +65,7 @@
 				F52226D91EA6EEBB0003E722 /* HelloViewController.xib */,
 				F52226DE1EA6EEE00003E722 /* GoodByeViewController.swift */,
 				F52226DF1EA6EEE00003E722 /* GoodByeViewController.xib */,
-				F5D1D0131EA5CB20004B53BC /* OragamiViewController.swift */,
+				F5D1D0131EA5CB20004B53BC /* SSOrigamiViewController.swift */,
 				F5D1D0181EA5CB20004B53BC /* Assets.xcassets */,
 				F5D1D01A1EA5CB20004B53BC /* LaunchScreen.storyboard */,
 				F5D1D01D1EA5CB20004B53BC /* Info.plist */,
@@ -148,7 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F52226DA1EA6EEBB0003E722 /* HelloViewController.swift in Sources */,
-				F5D1D0141EA5CB20004B53BC /* OragamiViewController.swift in Sources */,
+				F5D1D0141EA5CB20004B53BC /* SSOrigamiViewController.swift in Sources */,
 				F52226E01EA6EEE00003E722 /* GoodByeViewController.swift in Sources */,
 				F5D1D0121EA5CB20004B53BC /* AppDelegate.swift in Sources */,
 			);
