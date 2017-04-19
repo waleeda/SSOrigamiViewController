@@ -43,10 +43,10 @@ class OragamiViewController: UIViewController {
     {
         guard folds >= 2 else{ fatalError("folds")}
         self.init()
-        self.rootVC = curtain1
-        self.baseVC = base1
-        self.addChildViewController(curtain1)
-        self.addChildViewController(base1)
+        self.rootVC = curtain
+        self.baseVC = base
+        self.addChildViewController(curtain)
+        self.addChildViewController(base)
         self.folds = folds
     }
     
