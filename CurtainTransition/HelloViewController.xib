@@ -19,36 +19,29 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wil-xJ-0rc">
-                    <rect key="frame" x="163.5" y="287" width="48.5" height="24"/>
-                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
-                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="rX8-jH-7FN">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="667" id="xIm-fh-iMO"/>
+                    </constraints>
+                </imageView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kCS-72-VX3">
-                    <rect key="frame" x="168" y="319" width="38" height="30"/>
+                    <rect key="frame" x="167.5" y="617" width="39" height="30"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                     <state key="normal" title="Open">
-                        <color key="titleColor" red="0.99913245439999998" green="0.79727345709999997" blue="0.030656484889999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <connections>
                         <action selector="s:" destination="-1" eventType="touchUpInside" id="tIt-ly-aCq"/>
                     </connections>
                 </button>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="rX8-jH-7FN">
-                    <rect key="frame" x="0.0" y="0.0" width="375" height="279"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="279" id="xIm-fh-iMO"/>
-                    </constraints>
-                </imageView>
             </subviews>
-            <color key="backgroundColor" red="0.84059723984771573" green="0.35120185925439656" blue="0.18744438080464643" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstItem="rX8-jH-7FN" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="09z-PM-EGZ"/>
-                <constraint firstItem="kCS-72-VX3" firstAttribute="top" secondItem="wil-xJ-0rc" secondAttribute="bottom" constant="8" id="DyC-QO-AeB"/>
-                <constraint firstItem="wil-xJ-0rc" firstAttribute="top" secondItem="rX8-jH-7FN" secondAttribute="bottom" constant="8" id="JeR-ah-vAc"/>
                 <constraint firstAttribute="trailing" secondItem="rX8-jH-7FN" secondAttribute="trailing" id="LgN-2m-zFk"/>
                 <constraint firstItem="rX8-jH-7FN" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="O5y-JD-R2R"/>
-                <constraint firstItem="wil-xJ-0rc" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="U5z-pM-ugF"/>
+                <constraint firstAttribute="bottom" secondItem="kCS-72-VX3" secondAttribute="bottom" constant="20" id="Rvz-FC-6Xt"/>
                 <constraint firstItem="kCS-72-VX3" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="o8N-ri-8OM"/>
             </constraints>
             <point key="canvasLocation" x="35.5" y="54.5"/>

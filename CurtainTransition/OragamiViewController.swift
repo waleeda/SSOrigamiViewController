@@ -39,7 +39,7 @@ class OragamiViewController: UIViewController {
     private var minSize = CGSize(width: UIScreen.main.bounds.width/2, height: 0)
     private let closedSize = CGSize(width: 40, height: 0)
   
-    convenience init(curtain1 : UIViewController, base1 :UIViewController, folds: Int )
+    convenience init(curtain : UIViewController, base :UIViewController, folds: Int )
     {
         guard folds >= 2 else{ fatalError("folds")}
         self.init()
@@ -149,7 +149,7 @@ class OragamiViewController: UIViewController {
             let xOffSet:CGFloat = a + (CGFloat(i) * (a + a))
             if (i%2 == 1){ rad = (rad) * CGFloat(-1.0)}
             s.zPosition = -10
-            s.sublayers?[0].opacity = Float(percent)*0.2 + 0.12
+            s.sublayers?[0].opacity = Float(percent)*0.2 + 0.20
             s.transform = CATransform3DConcat(CATransform3DIdentity,CATransform3DConcat(CATransform3DMakeRotation(rad, 0, 1, 0),
                                                                                         CATransform3DMakeTranslation(-xOffSet , 0, 0)))
         }
@@ -261,7 +261,7 @@ class OragamiViewController: UIViewController {
             layer.zPosition = -10
             let shadow = CAGradientLayer()
             shadow.frame = layer.bounds
-            shadow.backgroundColor = UIColor.lightGray.cgColor
+            shadow.backgroundColor = UIColor.white.cgColor
             shadow.colors = [UIColor.black.cgColor,UIColor.clear.cgColor]
             shadow.opacity = 0
   

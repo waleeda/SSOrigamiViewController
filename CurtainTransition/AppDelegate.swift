@@ -17,10 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         let vc1 = HelloViewController()
-
         let vc2 = GoodByeViewController()
-
-        
         let root = OragamiViewController(curtain1: vc1, base1: vc2,folds:8)
         window?.rootViewController = root
         window?.makeKeyAndVisible()
